@@ -1,0 +1,8 @@
+.cover__background-link {
+    text-decoration: none;
+}
+@media screen and (min-width: 1280px){
+    .cover__background-link {
+        align-self: center;
+    }
+}

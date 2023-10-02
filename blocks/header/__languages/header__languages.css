@@ -1,0 +1,5 @@
+.header__languages {
+    /* max-width: ; */
+    display: flex;
+    align-items: flex-end;
+}

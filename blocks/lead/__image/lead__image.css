@@ -1,0 +1,27 @@
+.lead__image {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    padding-left: 48px;
+    padding-right: 48px;
+}
+@media screen and (min-width: 1280px){
+    .lead__image {
+        width: 984px;
+        box-sizing: content-box;
+    }
+}
+@media screen and (min-width: 768px) and (max-width:1023px) {
+    .lead__image {
+        box-sizing: content-box;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+@media screen and (max-width: 767px) {
+    .lead__image {
+        box-sizing: content-box;
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
